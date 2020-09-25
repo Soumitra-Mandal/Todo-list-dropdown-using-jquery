@@ -1,0 +1,84 @@
+#name {
+    color: #1abc9c;
+    text-align: center;
+    margin-top: 3vh;
+}
+.del {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ 
+.todolist{
+    position: absolute;
+    left:44.5%;
+    width: 42vw;
+    top:20vh;
+}
+
+.header{
+    background-color: #2a2d2a;
+    width:100%;
+    height:7vh;
+    margin:0;
+}
+html,body{
+    margin:0;
+}
+#welcome{
+    color: white;
+    margin:0;
+    padding-top: 8px;
+    padding-left: 8vw;
+    font-family:helvetica;
+    font-weight: lighter;
+}
+#menu{
+    color:white;
+    margin:0;
+    position: absolute;
+    font-family:helvetica;
+    left:5px;
+    top: 15px;
+    font-size: large;
+    cursor:pointer;
+    width: 3.2vw;
+}
+#pi{
+    list-style: none;
+    margin:0;
+    position: absolute;
+    top:53px;
+    left:-40px;
+}
+.this{
+ color:white;
+ background-color:#2a2d2a ;
+ width:6vw;
+ border:0.5px solid white;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 5px;
+ cursor: pointer;
+}
+
+#menu:hover{
+    color:black;
+    background-color: white;
+
+}
+.mains{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#enter{
+    cursor: pointer;
+    display: inline;
+    margin: 1vw;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
